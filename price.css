@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    width:100vw;
+    font-family: 'Poppins', sans-serif;
+}
+.maincontainer{
+    height:100%;
+    width:100%;
+}
+.textcontainer{
+    height:30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.textcontainer h1{
+    color: rgb(3, 128, 128);
+    font-size:3.5rem;
+}
+.textcontainer h2{
+    color: rgb(110, 168, 3);
+    font-size:2rem;
+}
+.textcontainer p{
+    color:rgb(74, 72, 72);
+    font-size:1.2rem;
+}
+.buttoncontainer{
+    width:100%;
+    height:50%;
+    display:flex;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    height:100%;
+    background-color: rgb(2, 82, 85);
+    color: rgb(255, 255, 255);
+}
+.signuptext{
+    margin-left: 5.5%;
+    margin-bottom:5%;
+}
+.signup h3{
+    font-size: 2.4rem;
+}
+.signup p{
+    margin-top: 1%;
+    font-size:1.2rem;
+}
+.head1{
+    font-size: 2.7rem;
+}
+.text1{
+    color: rgb(161, 163, 163);
+}
+.signup .btn{
+    position: relative;
+    top: -5%;
+    width: 85%;
+    height:15%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background-color:hsl(71, 66%, 53%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.signup .btn:hover{
+    border: none;
+    background-color: hsl(164, 97%, 36%);
+    box-shadow:5px 8px 8px #000;
+    cursor: pointer;
+}
+.whyus{
+    width:50%;
+    height:100%;
+    background-color: rgb(2, 147, 147);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.whyustext{
+    margin-left:5.5%;
+}
+.whyus h3{
+    position: relative;
+    top:8%;
+    font-size:2.4rem;
+    margin-bottom: 6%;
+}
+.whyus p{
+    color: rgb(222, 229, 229);
+    font-size: 1.2rem;
+    margin-bottom: 6%;
+}
